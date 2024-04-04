@@ -97,7 +97,8 @@ def dostats(lootboxopener):
     for item, itemcount in items.items():
         print(f"Opened {itemcount} of {itemmap[item]}")
     for item, itemcount in items.items():
-        print(f"Item {itemmap[item]} has a chance of {(itemcount/count)*100}%")
+        item_percent = (itemcount/count)*100
+        print(f"Item {itemmap[item]} has a chance of {item_percent:.2f}%")
 
 
 def main():
