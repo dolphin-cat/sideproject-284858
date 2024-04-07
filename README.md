@@ -13,7 +13,7 @@ This Python script allows users to automate the process of opening lootboxes in 
 
 ## Prerequisites
 
-- Run ```pip install -r requirements.txt```
+- Run `pip install -r requirements.txt`
 
 - Python 3.x
 - [tls_client](https://github.com/DiscordHackWeek/tls_client) library
