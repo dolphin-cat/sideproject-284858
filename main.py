@@ -4,6 +4,9 @@ import datetime
 import os
 import random
 import sys
+from dotenv import load_dotenv
+
+load_dotenv()
 
 red = '\x1b[31m(-)\x1b[0m'
 blue = '\x1b[34m(+)\x1b[0m'
@@ -101,10 +104,11 @@ def dostats(lootboxopener):
 
 
 def main():
-    if len(sys.argv) == 2:
-        token = sys.argv[1]
-    else:
-        token = input(f"{get_timestamp()} {blue} Please Enter Your Account Token : ")
+    token = os.getenv("DISCORD_TOKEN")
+    if token is None:
+        print("No token found in .env file.")
+        sys.exit(1)
+
     discord_session = DiscordSession()
     lootbox_opener = LootBoxOpener(discord_session, token)
 
@@ -143,5 +147,5 @@ def main():
 
 
 if __name__ == "__main__":
-    os.system("cls")
+    os.system("clear")
     main()
