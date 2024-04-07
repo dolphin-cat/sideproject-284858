@@ -31,4 +31,4 @@ This Python script allows users to automate the process of opening lootboxes in 
 # Disclaimer
 This tool is created for educational purposes and ethical use only. Any misuse of this tool for malicious purposes is not condoned. The developers of this tool are not responsible for any illegal or unethical activities carried out using this tool.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JOY6IX9INE/Discord-Lootbox-Opener&type=Date)](https://star-history.t9t.io/#JOY6IX9INE/Discord-Lootbox-Opener&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=HiboMan/Discord-Lootbox-Opener&type=Date)](https://star-history.t9t.io/#HiboMan/Discord-Lootbox-Opener&Date)
